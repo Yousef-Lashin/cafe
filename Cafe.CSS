@@ -1,0 +1,358 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial;
+}
+#intro-section {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url(img/antique-cafe-bg-01.jpg);
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+ul {
+  color: #cc9966;
+  float: right;
+  list-style: none;
+  position: relative;
+  right: 150px;
+  top: 20px;
+  font-size: 20px;
+}
+.first-li {
+  border-bottom-style: solid;
+}
+.li-div {
+  text-align: center;
+  width: 70px;
+  height: 35px;
+  display: inline-block;
+  margin-left: 50px;
+  transition: 0.1s;
+}
+.li-div:hover {
+  border-bottom-style: solid;
+}
+.li-div li a {
+  color: #cc9966;
+  text-decoration: none;
+}
+.clear {
+  clear: both;
+}
+.content-sec1 {
+  text-align: center;
+  line-height: 24px;
+  position: relative;
+  top: 180px;
+}
+.Cafe {
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.623);
+  width: 400px;
+  height: 180px;
+  padding: 50px;
+}
+.Cafe h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.Cafe p {
+  color: #cc9966;
+  font-size: 20px;
+}
+.content {
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.623);
+  width: 400px;
+  padding: 50px;
+  margin-top: 20px;
+}
+.content p {
+  text-align: left;
+}
+.content a {
+  color: #ff6;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.content a:hover {
+  color: lightblue;
+}
+.btn {
+  margin: auto;
+  text-align: center;
+  margin-top: 200px;
+}
+.btn button {
+  background-color: rgba(0, 0, 0, 0.623);
+  color: #cc9966;
+  border: none;
+  padding: 20px 28px;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+.btn button:hover {
+  color: white;
+}
+
+#menu-section {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url(img/antique-cafe-bg-02.jpg);
+  width: 100%;
+  height: 100vh;
+  color: black;
+}
+.head-sec2 {
+  margin: auto;
+  text-align: center;
+}
+.head-sec2 button {
+  color: #544639;
+  background-color: white;
+  padding: 20px 36px;
+  border: none;
+  border-radius: 8px;
+  font-size: 36px;
+  margin-top: 100px;
+}
+.menu {
+  width: 70%;
+  margin: auto;
+  margin-top: 80px;
+}
+.menu-left {
+  background-color: #544639;
+  width: 520px;
+  float: left;
+  border-radius: 10px;
+  padding: 40px 32px;
+}
+.menu-item-left {
+  margin-bottom: 24px;
+}
+.img-left {
+  display: inline-block;
+}
+.img-left img {
+  border-radius: 5px;
+}
+.item-details-left {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+}
+.item-name-left {
+  color: #fc6;
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+.item-price-left {
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: cursive;
+}
+.menu-right {
+  background-color: #544639;
+  width: 520px;
+  float: right;
+  border-radius: 10px;
+  padding: 40px 32px;
+}
+.menu-item-right {
+  margin-bottom: 24px;
+}
+.img-right {
+  float: right;
+}
+.img-right img {
+  border-radius: 5px;
+}
+.item-details-right {
+  vertical-align: top;
+  float: right;
+  margin-right: 20px;
+  text-align: right;
+}
+.item-name-right {
+  color: #fc6;
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+.item-price-right {
+  color: #e4e3e3;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: cursive;
+  margin-bottom: 35px;
+}
+
+#about-section {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url(img/antique-cafe-bg-03.jpg);
+  width: 100%;
+  height: 100vh;
+  color: black;
+}
+.container {
+  float: right;
+  width: 50%;
+}
+
+.pad {
+  float: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 500px;
+  padding: 48px 56px;
+  border-radius: 10px;
+  margin-top: 200px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.pad h1 {
+  color: rgb(0, 102, 102);
+  margin-bottom: 24px;
+}
+.pad p {
+  color: black;
+  margin-bottom: 24px;
+}
+.pad-btn a {
+  border: none;
+  color: white;
+  background-color: #006666;
+  padding: 16px 36px;
+  border-radius: 8px;
+  float: left;
+  text-decoration: none;
+  transition: 0.1s;
+  margin-left: 20px;
+}
+.pad-btn a:hover {
+  background-color: #038b8b;
+}
+
+#contact-section {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url(img/antique-cafe-bg-04.jpg);
+  width: 100%;
+  height: 100vh;
+}
+.base {
+  width: 60%;
+  margin: auto;
+  padding-top: 200px;
+}
+.left-box {
+  border-radius: 10px;
+  width: 500px;
+  padding: 48px 56px;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.header h1 {
+  font-size: 30px;
+  color: rgb(0, 102, 102);
+  margin-bottom: 24px;
+}
+.left-box p {
+  line-height: 30px;
+  font-size: 18px;
+  color: rgb(92, 92, 92);
+  margin-bottom: 24px;
+}
+label {
+  color: rgb(92, 92, 92);
+}
+.tel,
+.email {
+  font-size: 18px;
+  color: #038b8b;
+  text-decoration: none;
+}
+.map-btn {
+  margin: 50px 0px;
+  text-align: center;
+}
+.left-box button {
+  border: none;
+  color: white;
+  background-color: #006666;
+  padding: 20px 40px;
+  border-radius: 8px;
+  font-size: 28px;
+  transition: 0.1s;
+}
+.left-box button:hover {
+  background-color: #038b8b;
+}
+.input-box {
+  border-radius: 10px;
+  width: 500px;
+  padding: 48px 56px;
+  float: right;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#name,
+#email {
+  width: 100%;
+  height: 60px;
+  float: left;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #cc9966;
+}
+#name:focus,
+#email:focus,
+#message:focus {
+  border: 1px solid #cc9966;
+  box-shadow: 0 0 5px #cc9966;
+  outline: #cc9966;
+}
+::placeholder {
+  color: rgb(196, 195, 195);
+}
+#message {
+  width: 100%;
+  height: 200px;
+  float: left;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #cc9966;
+}
+.send-btn a {
+  text-decoration: none;
+  float: right;
+  border: none;
+  font-size: 20px;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0);
+}
+.send-btn a:hover {
+  color: #fc6;
+}
+i {
+  padding-right: 6px;
+}
